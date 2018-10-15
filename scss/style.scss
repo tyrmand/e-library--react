@@ -1,0 +1,14 @@
+.center {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#mainBackground {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/baner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: white;
+}
