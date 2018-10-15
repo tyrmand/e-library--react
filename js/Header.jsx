@@ -7,14 +7,14 @@ class Header extends React.Component {
 
     render() {
         return (
-            <Fragment>
+            <div>
                 <header id="mainBackground">
-                    <div class="center">
-                        <h2>Najlepsza fotografia na świecie</h2>
-                        <h1>Fotografia</h1>
+                    <div className="center">
+                        <h2>Moja kolekcja ebooków</h2>
+                        <h1>e-library</h1>
                     </div>
                 </header>
-            </Fragment>
+            </div>
         )
     }
 }

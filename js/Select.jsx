@@ -7,7 +7,7 @@ class Select extends React.Component {
 
     render() {
         return (
-            <Fragment>
+            <div>
                 <h2>Wybierz gatunek:</h2>
                 <select>
                     <option value="economics">Ekonomia</option>
@@ -33,7 +33,7 @@ class Select extends React.Component {
                     <option value="religion">Religia</option>
                     <option value="documentary">Reportaż i literatura faktu</option>
                 </select>
-            </Fragment>
+            </div>
         )
     }
 }
