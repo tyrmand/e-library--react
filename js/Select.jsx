@@ -28,7 +28,7 @@ class Select extends React.Component {
                     <option value="science">Nauki ścisłe</option>
                     <option value="social">Nauki społeczne</option>
                     <option value="poetry">Poezja</option>
-                    <option value="polish">Polonistyka i językozawstwo</option>
+                    <option value="polish">Polonistyka i językoznawstwo</option>
                     <option value="psychology">Psychologia i poradniki</option>
                     <option value="religion">Religia</option>
                     <option value="documentary">Reportaż i literatura faktu</option>
