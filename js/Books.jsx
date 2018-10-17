@@ -305,9 +305,9 @@ class Books extends React.Component {
 
     render() {
         return (
-            <div>
+            <section>
                 {this.createLibrary()}
-            </div>
+            </section>
         )
     }
 }
