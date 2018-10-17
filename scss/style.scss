@@ -1,4 +1,4 @@
-*	{
+* {
     padding: 0;
     margin:	0;
 }
@@ -31,4 +31,71 @@ body {
         font-size: 150px;
         line-height: 400px;
     }
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    max-width: 1200px;
+    /* height: 1000px; */
+    margin: 0 auto;
+}
+
+div.bookBox {
+    width: 33%;
+    height: 500px;
+    border: 1px double black;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+div.coverBox {
+    width: 220px;
+    height: 312px;
+    border: 1px double black;
+    text-align: center;
+    margin: 12px auto 12px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+            
+div.formatBoxInside {
+    width: 50px;
+    height:30px;
+    line-height:30px;
+    background-color: teal;
+    text-transform: uppercase;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+div.formatBoxInside + div.formatBoxInside {
+    margin-left: 4px;
+}
+
+img {
+    width:220px;
+    height: 312px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+div .personalInfo {
+    height: 100px;
+    margin: auto 12px;
+}
+
+.authorName {
+    text-transform: uppercase;
 }
