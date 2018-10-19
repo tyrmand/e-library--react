@@ -7,9 +7,10 @@ class Select extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="select">
                 <h2>Wybierz gatunek:</h2>
                 <select>
+                    <option value="*">Wszystkie</option>                    
                     <option value="economics">Ekonomia</option>
                     <option value="esoterics">Ezoteryka</option>
                     <option value="fantasy-sf">Fantastyka</option>
