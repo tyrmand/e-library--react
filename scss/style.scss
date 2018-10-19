@@ -33,6 +33,17 @@ body {
     }
 }
 
+.select {
+    padding: 20px;
+    h2 {
+        padding:20px;
+    }
+    select {
+        font-size: 22px;
+    }
+}
+
+
 section {
     display: flex;
     flex-wrap: wrap;
