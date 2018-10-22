@@ -23,7 +23,7 @@ class BookBox extends React.Component {
                 </div>
                 <div className='personalInfo'>
                     <p className='authorName'>{this.state.author}</p>
-                    <p>{this.state.title}</p>
+                    <p className='title'>{this.state.title}</p>
                 </div>
                 <div className='formatBox'>
                     <FormatBox epub={this.state.epub} mobi={this.state.mobi} pdf={this.state.pdf}/>
