@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 * {
     padding: 0;
     margin:	0;
@@ -27,11 +29,13 @@ body {
     }
     
     h1 {
-        color: #e6e6e6;
+        color: orange;
         text-align: center;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: -3px 0 brown, 0 3px red, 3px 0 brown, 0 -3px red;
         font-size: 150px;
-        line-height: 400px;
+        line-height: 300px;
+        font-family: 'Dosis', sans-serif;
+        letter-spacing: 15px;
     }
 }
 
