@@ -17,7 +17,7 @@ class BookBox extends React.Component {
 
     render() {
         return (
-            <div className={"bookBox " + this.state.genre}>
+            <div className={"bookBox hvr-grow-shadow " + this.state.genre}>
                 <div className='coverBox'>
                     <img src={this.state.image}/>
                 </div>
