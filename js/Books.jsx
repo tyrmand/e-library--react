@@ -1,8 +1,6 @@
 import React from 'react';
-import BookBox from './BookBox.jsx';
-// import book from './array.js';
-
-
+import ReactDOM from 'react-dom';
+import BookBox from './BookBox.jsx'
 
 class Books extends React.Component {
     constructor(props) {
@@ -304,12 +302,12 @@ class Books extends React.Component {
     }
 
     render() {
-        return (
+         return (
             <section>
                 {this.createLibrary()}
             </section>
         )
-    }
+    }    
 }
 
 export default Books;
