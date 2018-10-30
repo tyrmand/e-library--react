@@ -13,7 +13,7 @@ class FormatBox extends React.Component {
     renderEpub = () => {
         if (this.state.epub) {
             return (
-                <div className='formatBoxInside'><img src="../images/epub.png" /></div>
+                <div className='formatBoxInside'><img src="images/epub.png" /></div>
             )
         }
     }
@@ -21,7 +21,7 @@ class FormatBox extends React.Component {
     renderMobi = () => {
         if (this.state.mobi) {
             return (
-                <div className='formatBoxInside'><img src="../images/mobi.png" /></div>
+                <div className='formatBoxInside'><img src="images/mobi.png" /></div>
             )
         }
     }
@@ -29,7 +29,7 @@ class FormatBox extends React.Component {
     renderPdf = () => {
         if (this.state.pdf) {
             return (
-                <div className='formatBoxInside'><img src="../images/pdf.png" /></div>
+                <div className='formatBoxInside'><img src="images/pdf.png" /></div>
             )
         }
     }
