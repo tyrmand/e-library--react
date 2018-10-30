@@ -10,7 +10,26 @@ class Books extends React.Component {
 
     createLibrary = () => {
 
-        let bookboxes = book.map((book) => {
+        let filter = this.props.filter;
+        let filteredBooks = book.filter((item) => {
+            return (!filter || item.genre == filter)
+        });
+
+        let bookboxes = filteredBooks.map((book) => {
+            return (
+                <BookBox 
+                    key={book.author+ "-" + book.title}
+                    genre={book.genre}
+                    image={book.image}
+                    author={book.author}
+                    title={book.title}
+                    epub={book.epub}
+                    mobi={book.mobi}
+                    pdf={book.pdf} />
+            )
+        })
+
+        let bookboxesAll = book.map((book) => {
             return (
                 <BookBox 
                     key={book.author+ "-" + book.title}
@@ -24,9 +43,16 @@ class Books extends React.Component {
             )
         })
        
+        if (this.props.filter === "all") {
             return (
-               bookboxes
-            )
+                bookboxesAll
+             )
+        }
+        else {
+            return (
+                bookboxes
+             ) 
+        }
 
     }
 
